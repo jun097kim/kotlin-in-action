@@ -29,6 +29,11 @@
             <version>2.12.0</version>
         </dependency>
         <dependency>
+            <groupId>org.jetbrains.exposed</groupId>
+            <artifactId>exposed</artifactId>
+            <version>0.3.2</version>
+        </dependency>
+        <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-test-junit</artifactId>
             <version>${kotlin.version}</version>
@@ -70,5 +75,13 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>exposed</id>
+            <name>exposed</name>
+            <url>https://dl.bintray.com/kotlin/exposed</url>
+        </repository>
+    </repositories>
 
 </project>
